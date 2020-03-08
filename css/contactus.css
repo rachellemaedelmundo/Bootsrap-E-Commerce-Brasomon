@@ -1,0 +1,71 @@
+@font-face {
+    src: url(../fonts/Aquatico-Regular.otf);
+    font-family: Aquatico;
+  }
+  @font-face {
+    src: url(../fonts/Sacramento-Regular.ttf);
+    font-family: Sacramento;
+  }
+  @font-face {
+    src: url(../fonts/Leoscar\ Serif.ttf);
+    font-family: Leoscar;
+  }
+*{
+    padding:0px;
+    margin:0px;
+}
+.header{
+  background-image: url(../img/20.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#logo{
+    width: 50px;
+    border-radius: 100%;
+}
+.text-top{
+  text-align: center;
+  font-family: Aquatico;
+  height:30rem;
+  padding-top: 12rem;
+  
+}
+
+.bra{
+  font-size: 70px;
+}
+.col-sm-12 w-100 form-group pt-lg-5 text-center{
+  margin-top: 10rem;
+
+}
+
+
+footer{
+  width: 100%;
+  background-color: rgb(59, 58, 58);
+  padding-top: 2%;
+  color: white;
+}
+
+.footer .footer-contact{
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.fa{
+  padding-right: 5%;
+  font-size: 15px;
+  color: white;
+}
+.fa:hover{
+  color: rgb(175, 157, 157);
+}
+
+#copyright{
+  font-size: small;
+  padding-bottom: 1rem;
+}
+
+.icon{
+  max-width: 90px;
+}

@@ -1,0 +1,105 @@
+@font-face {
+    src: url(../fonts/Aquatico-Regular.otf);
+    font-family: Aquatico;
+  }
+  @font-face {
+    src: url(../fonts/Sacramento-Regular.ttf);
+    font-family: Sacramento;
+  }
+  @font-face {
+    src: url(../fonts/Leoscar\ Serif.ttf);
+    font-family: Leoscar;
+  }
+*{
+    padding:0px;
+    margin:0px;
+}
+.header{
+    background-image: url(../img/21.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#logo{
+    width: 50px;
+    border-radius: 100%;
+}
+.text-top{
+    text-align: center;
+    font-family: Aquatico;
+    height:30rem;
+    padding-top: 12rem;
+    
+}
+
+.bra{
+    font-size: 70px;
+}
+.section{
+    background-image: url(../img/logo.png);
+    background-size:  cover;
+    background-repeat: no-repeat;
+    padding-bottom: 7rem;
+    position: relative;
+    width:100%;
+
+}
+.padding-top{
+    margin-top: 1rem;
+    font-size: 3rem;
+    font-family: Leoscar;
+}
+#home{
+    background-image: url(../img/img11.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    color: cadetblue;
+}
+.home .landing-page .text-center{
+    display: table-cell;
+    padding-top: 15rem;
+    font-size: 100px;
+    font-family: Leoscar;
+}
+
+
+.img-responsive{
+    width: 20rem;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.btn-primary{
+    margin-top: 3rem;
+    margin-left: 9rem;
+}
+footer{
+    width: 100%;
+    background-color: rgb(59, 58, 58);
+    padding-top: 2%;
+    color: white;
+}
+
+.footer .footer-contact{
+    font-size: 15px;
+}
+
+.fa{
+    padding-right: 5%;
+    font-size: 15px;
+    color: white;
+}
+.fa:hover{
+    color: rgb(175, 157, 157);
+}
+
+#copyright{
+    font-size: small;
+    padding-bottom: 1rem;
+}
+
+.icon{
+    max-width: 90px;
+}

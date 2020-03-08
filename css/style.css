@@ -1,0 +1,108 @@
+@font-face {
+    src: url(../fonts/Aquatico-Regular.otf);
+    font-family: Aquatico;
+  }
+  @font-face {
+    src: url(../fonts/Sacramento-Regular.ttf);
+    font-family: Sacramento;
+  }
+  @font-face {
+    src: url(../fonts/Leoscar\ Serif.ttf);
+    font-family: Leoscar;
+  }*/
+*{
+    padding:0px;
+    margin:0px;
+}
+.header{
+    background-image: url(../img/15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#logo{
+    width: 50px;
+    border-radius: 100%;
+}
+.text-top{
+    text-align: center;
+    font-family: Aquatico;
+    height:30rem;
+    padding-top: 12rem;
+    
+}
+
+.bra{
+    font-size: 70px;
+    color:lightslategray;
+}
+
+#fixed{
+    background-image: url(../img/logo.png) no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+
+}
+
+#home{
+    display: table-cell;
+    padding-top: 15rem;
+    font-size: 100px;
+    font-family: Leoscar;
+}
+.carousel-indicators { 
+    position:absolute;
+    bottom:10px;
+    z-index:15;
+    justify-content:center;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+.carousel-inner{
+    margin: 10rem;
+    height:30rem;
+}
+.padding{
+    margin-top: 5rem;
+}
+.img-responsive{
+    width: 20rem;
+}
+#logo3{
+    margin-left:25rem;
+    margin-top:1rem;
+    border-radius: 40rem;
+    height: 30rem;
+}
+/*footer*/
+footer{
+    width: 100%;
+    background-color: rgb(59, 58, 58);
+    padding-top: 2%;
+    color: white;
+}
+
+.footer .footer-contact{
+    font-size: 15px;
+}
+
+.fa{
+    padding-right: 5%;
+    font-size: 15px;
+    color: white;
+}
+.fa:hover{
+    color: rgb(175, 157, 157);
+}
+
+#copyright{
+    font-size: small;
+    padding-bottom: 1rem;
+}
+
+.icon{
+    max-width: 90px;
+}
